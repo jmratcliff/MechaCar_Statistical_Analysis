@@ -14,3 +14,9 @@ The regression analysis returned a r-squared value of 0.7149 indicating 71% of t
 
 ![mpg](/images/summary_mpg_multi_lin_reg.png)
 
+Vehicle length and ground clearance provided a non-random amount of variance to the mpg. Vehicle length had the most impact with a Pearson's Correlation coefficient of 0.6095 indicating a Moderate strength of correlation. Ground clearance had less of a correlation with a factor of 0.3287 or a weak correlation. Vehicle weight, spoiler angle, and AWD indicator show a very weak or no correlation.
+
+![mpg_cor](/images/mpg_cor.png)
+
+The calculated r-squared value of 0.7149 of this linear model does a fair job of prediciting mpg of prototype cars but also indicates that there are most likely additional factors affecting mileage that should be investigated further in order to accurately predict mpg.
+
