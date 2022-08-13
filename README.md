@@ -12,5 +12,5 @@ Performed a multiple linear regression on manufacturer's mpg test results data f
 
 The regression analysis returned a r-squared value of 0.7149 indicating 71% of the variability of mpg variable is explained by looking at the other variables. The p-value of 5.35e-11 (0.0000000000535) is significantly smaller than our assumed significance level of 0.05%. This indicates significant evidence to reject our null hypothesis that there is no correlation between vehicle features to mpg. This also means that the slope of the linear model is not zero.
 
-![summary mpg regression]summary_mpg_multi_lin_reg.png
+![mpg](/images/summary_mpg_multi_lin_reg.png)
 
