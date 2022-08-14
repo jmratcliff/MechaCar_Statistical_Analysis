@@ -57,3 +57,14 @@ The p-value for Lot 3 = **0.04168** which is **less than** our confidence level 
 
 ### Study Design: MechaCar vs Competition
 
+A statistical study comparing maintenance cost of MechaCar vehicles vs other manufacturer's models is recommended.
+
+**Metric** - average yearly maintenance cost
+**Statistical Test** - two-sample t-Test. *to determine if the means of two samples (MechaCar and competition) are statistically different*
+
+#### Null Hypothesis
+There is no statistical difference between the average yearly maintenance cost of MechaCar vehicles and the competition's vehicles.
+#### Alternative Hypothesis
+There is a statistical difference between the average yearly maintenance cost of MechaCar vehicles and the competition's vehicles.
+
+Recommendation is to obtain average yearly maintenance cost figures from a reliable source.
