@@ -1,5 +1,5 @@
 # MechaCar Statistical Analysis
- Technical analysis and statistical study using R
+ Technical analysis and statistical study using R and RStudio.
  
 ## Overview
 Analysis looking at automotive manufacturer's production data to gain insights for manufacturing team. Performed multiple linear regression analysis on factors affecting miles per gallon fuel efficiency. Summarize statistics of PSI of suspension coils from manufacturing lots. Ran t-tests comparing manufacturing lots to population. Statistical study design to compare manufacturer's vehicles against the competition.
