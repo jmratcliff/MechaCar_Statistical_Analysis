@@ -53,3 +53,7 @@ The p-value for Lot 2 = **0.6072** which is **greater than** our confidence leve
 The p-value for Lot 3 = **0.04168** which is **less than** our confidence level of **0.05**. Therefore, we have enough evidence to reject our null hypothesis, and accept the alternative hypothesis that the two means are **statistically different**.
 
 ![ttest_lot3](/images/t_test_lot3.png)
+
+
+### Study Design: MechaCar vs Competition
+
