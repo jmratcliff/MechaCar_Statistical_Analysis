@@ -22,3 +22,34 @@ The calculated r-squared value of 0.7149 of this linear model does a fair job of
 
 ### Summary Statistics on Suspension Coils
 
+Analyzed the weight capacities of suspension coils from manufacturing data by production lot. Design specifications for MechaCar suspension coils dictate that the **variance not exceed 100 pounds per square inch**.
+
+The overall population of suspension coils **meets** the variance threshold with a total variance of **62.3 PSI**
+
+![summary_coils](/images/coil_summary.png)
+
+In looking at the variance by production lot we find that Lots 1 and 2 meet the variance threshold however **Lot 3 exceeds** the limit with a **variance of 170.3 PSI**
+
+![summary_coils_lot](/images/coil_lot_summary.png)
+
+### T-Tests on Suspension Coils
+
+T-tests were performed on the individual manufacturing lots vs. the total population for variances in PSI.
+
+#### Lot 1
+
+The p-value for Lot 1 = **1** which is **greater than** our confidence level of **0.05**. Therefore, we have enough evidence to accept our null hypothesis that the two means are **statistically similar**.
+
+![ttest_lot1](/images/t_test_lot1.png)
+
+#### Lot 2
+
+The p-value for Lot 2 = **0.6072** which is **greater than** our confidence level of **0.05**. Therefore, we have enough evidence to accept our null hypothesis that the two means are **statistically similar**.
+
+![ttest_lot2](/images/t_test_lot2.png)
+
+#### Lot 1
+
+The p-value for Lot 3 = **0.04168** which is **less than** our confidence level of **0.05**. Therefore, we have enough evidence to reject our null hypothesis, and accept the alternative hypothesis that the two means are **statistically different**.
+
+![ttest_lot3](/images/t_test_lot3.png)
