@@ -20,3 +20,5 @@ Vehicle length and ground clearance provided a non-random amount of variance to 
 
 The calculated r-squared value of 0.7149 of this linear model does a fair job of prediciting mpg of prototype cars but also indicates that there are most likely additional factors affecting mileage that should be investigated further in order to accurately predict mpg.
 
+### Summary Statistics on Suspension Coils
+
